@@ -38,7 +38,7 @@ namespace RockPaperScissors_DEMO
             string compMessage = "Computer played " + computerInput + "! ";
             string userWon = compMessage + "Congratulations you won!";
             string userLost = compMessage + "You lost! try again...";
-            string userDraw = compMessage + "Nobody won, try again!";
+            string userDraw = compMessage + "Nobody won, try again! ";
 
 
             if (userInput == "R" && computerInput == "R")
